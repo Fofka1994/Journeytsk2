@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_duration_type" table="x_523301_journey_s_journey" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_duration_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Short</label>
+            <language>en</language>
+            <name>x_523301_journey_s_journey</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-16 08:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32d4c391db531010a0b1f36f29961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-16 08:06:09</sys_updated_on>
+            <value>short</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_duration_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Average</label>
+            <language>en</language>
+            <name>x_523301_journey_s_journey</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-16 08:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ed4c391db531010a0b1f36f29961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-16 08:06:09</sys_updated_on>
+            <value>average</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_duration_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Long</label>
+            <language>en</language>
+            <name>x_523301_journey_s_journey</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-16 08:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76d4c391db531010a0b1f36f29961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-16 08:06:09</sys_updated_on>
+            <value>long</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_duration_type</element>
+            <name>x_523301_journey_s_journey</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-16 08:06:09</sys_created_on>
+            <sys_id>f6d4c391db531010a0b1f36f29961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_duration_type</sys_name>
+            <sys_package display_value="Journey App" source="x_523301_journey_s">000247dddb131010a0b1f36f29961984</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Journey App">000247dddb131010a0b1f36f29961984</sys_scope>
+            <sys_update_name>sys_choice_x_523301_journey_s_journey_u_duration_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-16 08:06:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_journey_type" table="x_523301_journey_s_journey" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_journey_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Local</label>
+            <language>en</language>
+            <name>x_523301_journey_s_journey</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-16 08:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aed4c391db531010a0b1f36f2996190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-16 08:06:09</sys_updated_on>
+            <value>local</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_journey_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Middle distance</label>
+            <language>en</language>
+            <name>x_523301_journey_s_journey</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-16 08:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aad4c391db531010a0b1f36f2996190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-16 08:06:09</sys_updated_on>
+            <value>middle distance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_journey_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Long distance</label>
+            <language>en</language>
+            <name>x_523301_journey_s_journey</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-16 08:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2d4c391db531010a0b1f36f29961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-16 08:06:09</sys_updated_on>
+            <value>long distance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_journey_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Round-the-world</label>
+            <language>en</language>
+            <name>x_523301_journey_s_journey</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-16 08:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ed4c391db531010a0b1f36f29961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-16 08:06:09</sys_updated_on>
+            <value>round-the-world</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_journey_type</element>
+            <name>x_523301_journey_s_journey</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-16 08:06:09</sys_created_on>
+            <sys_id>66d4c391db531010a0b1f36f2996190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_journey_type</sys_name>
+            <sys_package display_value="Journey App" source="x_523301_journey_s">000247dddb131010a0b1f36f29961984</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Journey App">000247dddb131010a0b1f36f29961984</sys_scope>
+            <sys_update_name>sys_choice_x_523301_journey_s_journey_u_journey_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-16 08:06:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

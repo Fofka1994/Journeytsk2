@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Journey" max_length="40" name="x_523301_journey_s_journey" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Duration type " max_length="40" name="duration_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Average" value="average"/>
+                <element inactive_on_update="false" label="Long" value="long"/>
+                <element inactive_on_update="false" label="Short" value="short"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="End point " max_length="32" name="end_point" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Journey type " max_length="40" name="journey_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Local" value="local"/>
+                <element inactive_on_update="false" label="Long distance" value="long_distance"/>
+                <element inactive_on_update="false" label="Middle distance" value="middle_distance"/>
+                <element inactive_on_update="false" label="Round-the-world" value="round_the_world"/>
+            </choice>
+        </element>
+        <element label="Responsible person " max_length="32" name="responsible_person" reference="sys_user" type="reference"/>
+        <element label="Sponsor" max_length="32" name="sponsor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element label="Start point" max_length="32" name="start_point" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Duration type" max_length="40" name="u_duration_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Short" sequence="0" value="short"/>
+                <element inactive_on_update="false" label="Average" sequence="1" value="average"/>
+                <element inactive_on_update="false" label="Long" sequence="2" value="long"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="u_end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Journey type" max_length="40" name="u_journey_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Local" sequence="0" value="local"/>
+                <element inactive_on_update="false" label="Middle distance" sequence="1" value="middle distance"/>
+                <element inactive_on_update="false" label="Long distance" sequence="2" value="long distance"/>
+                <element inactive_on_update="false" label="Round-the-world" sequence="3" value="round-the-world"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Start date" max_length="40" name="u_start_date" type="glide_date_time"/>
+    </element>
+</database>
